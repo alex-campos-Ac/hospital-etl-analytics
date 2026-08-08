@@ -1,0 +1,4 @@
+if [formato_data_saida] = "DMA" then Date.FromText([data_saida], "pt-BR")
+else if [formato_data_saida] = "MDA" then Date.FromText([data_saida], "en-US")
+else if [formato_data_saida] = "AMD" then Date.FromText([data_saida], "en-US")
+else null
