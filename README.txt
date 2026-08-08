@@ -1,0 +1,1 @@
+"A medida ignora automaticamente pacientes ainda internados (sem data de saída), pois DATEDIFF retorna em branco nesses casos, e AVERAGEX desconsidera valores em branco no cálculo da média."
