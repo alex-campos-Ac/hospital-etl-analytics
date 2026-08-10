@@ -1,0 +1,7 @@
+- Taxa de Ocupação (CALCULATE FILTER) — internações ativas / capacidade.
+- Tempo Médio de Internação (AVERAGEX) — em dias, por paciente.
+- Taxa de Reinternação em 30 dias (CALCULATE FILTER) — métrica clássica de hospital de verdade, muito cobrada.
+- Custo Total e Custo Médio por Internação (SUMX, AVERAGEX).
+- Comparativo MoM (DATEADD ou SAMEPERIODLASTYEAR conforme o caso) — variação mês a mês de internações.
+- Departamento com Maior Custo (SWITCH SELECTEDVALUE, com título dinâmico usando VAR FORMAT).
+- Acumulado no ano (YTD) de internações (TOTALYTD).
